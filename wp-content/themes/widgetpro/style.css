@@ -1,0 +1,106 @@
+/* theme name: widgetpro
+    author: chanly.touch
+*/
+
+title{
+  text-align: center;
+  justify-content: center;
+}
+h1{
+    color: rgb(201, 14, 29);
+    /* text-align: center; */
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto;
+   
+    /* background: rgb(182, 13, 22); */
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    padding: 20px 22px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+
+}
+li a:hover{
+    text-decoration: none;
+    color: rgb(241, 231, 231);
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #e3ecf1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  /* background-color: #aaa; */
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(199, 50, 50);
+  color:white;
+  margin-top: 20px;
+}
+.footer h1{
+  color: white;
+}
+.button{
+  background: rgb(61, 61, 230);
+}
